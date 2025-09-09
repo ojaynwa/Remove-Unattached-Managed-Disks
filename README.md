@@ -2,12 +2,19 @@
 Remove Unattached Managed Disks in Azure using PowerShell Script and a list of Disks in a CSV file
 
 Navigate to the customer's Cost Optimization Workbook in Azure Advisor.
+
 Within the workbook, go to the Storage tab and look for Unattached Managed Disks.
+
 Export data to Excel by clicking the download button.
+
 If needed, adapt the exported data. The PowerShell scripts will delete all disks in the exported excel sheet by default, so if you want to keep certain disks, delete the corresponding lines in the excel sheet.
+
 Save the Excel sheet as CSV file. The CSV file will be used as source to the PowerShell script.
+
 Execute/run DeleteIdleDisk.ps1
+
 The script requires the CSV as input and the customer's tenant ID
+
 
 
 **Disclaimer**
