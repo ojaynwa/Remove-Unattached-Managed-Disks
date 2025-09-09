@@ -15,6 +15,7 @@ Execute/run DeleteIdleDisk.ps1
 
 The script requires the CSV as input and the customer's tenant ID
 
+<img width="1194" height="283" alt="image" src="https://github.com/user-attachments/assets/ee8d4548-83ea-4924-86ac-d05bc004dce4" />
 
 
 **Disclaimer**
